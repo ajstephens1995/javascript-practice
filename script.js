@@ -37,3 +37,21 @@ console.log(typeof myNum);
 const myNum2 = 123;
 const myString2 = myNum2.toString();
 console.log(typeof myString2);
+
+const song = 'Fight the Youth';
+const score = 9;
+const highestScore = 10;
+const output = `I like the song ${song}. I gave it a score of ${score/highestScore * 100}%.`;
+console.log(output)
+
+let txt = '123456789';
+let length = txt.length;
+console.log(length)
+
+let str = 'Apple, Banana, Kiwi';
+let part = str.substr(7, 6);
+console.log(part)
+
+let text = 'Please visit Microsoft and Microsoft!';
+let newText = text.replace(/Microsoft/g, 'W3Schools');
+console.log(newText)
